@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  width: 63vw;
+  width: 87vw;
   display: flex;
   flex-direction: column;
   position: sticky;
@@ -91,7 +91,7 @@ flex-lente-container img {
 }
 
 .container-slideshow img {
-  width: 63vw;
+  width: 87vw;
 }
 
 nav {
@@ -125,7 +125,7 @@ nav img {
 }
 
 .flex-cell1 {
-  width: 63vw;
+  width: 87vw;
   display: flex;
   justify-content: center;
 }
@@ -142,7 +142,6 @@ nav img {
   text-align: center;
   padding: 30px;
 }
-
 
 .flex-cell1 p {
   margin: 1rem 0;
@@ -180,7 +179,7 @@ nav img {
 }
 
 .flex-cell2 {
-  width: 63vw;
+  width: 87vw;
   display: flex;
 }
 
@@ -340,7 +339,7 @@ strong {
 .flex-testimonianze {
   background-color: #f2f2f2;
   display: flex;
-  width: 63vw;
+  width: 87vw;
   align-items: center;
   justify-content: center;
   color: white;
@@ -352,7 +351,7 @@ strong {
 }
 
 .flex-cell4 {
-  width: 63vw;
+  width: 87vw;
   display: flex;
   justify-content: center;
 }
@@ -405,7 +404,7 @@ strong {
 .flex-certificazioni-container {
   background-color: #005290;
   display: flex;
-  width: 63vw;
+  width: 87vw;
   align-items: center;
   justify-content: center;
   padding: 30px;
@@ -438,7 +437,7 @@ strong {
 
 .flex-cell5 {
   padding: 50px 30px 0px;
-  width: 63vw;
+  width: 87vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -477,7 +476,7 @@ strong {
 }
 
 .flex-cell7 {
-  width: 63vw;
+  width: 87vw;
   display: flex;
   justify-content: center;
   padding: 30px;
@@ -509,7 +508,7 @@ strong {
 .flex-help {
   background-color: #005290;
   display: flex;
-  width: 63vw;
+  width: 87vw;
   align-items: center;
   justify-content: center;
   color: white;
@@ -530,7 +529,7 @@ strong {
 .cell-container {
   display: flex;
   align-items: center;
-  width: 63vw;
+  width: 87vw;
   justify-content: space-around;
 }
 
@@ -586,7 +585,7 @@ strong {
 .flex-container-finale {
   background-color: #005290;
   display: flex;
-  width: 63vw;
+  width: 87vw;
   align-items: center;
   justify-content: center;
   justify-content: flex-start;
@@ -716,7 +715,7 @@ strong {
 footer {
   background-color: #005290;
   display: flex;
-  width: 63vw;
+  width: 87vw;
 }
 
 footer p {
@@ -861,7 +860,6 @@ footer p {
   }
   .flex-lente-container img {
     width: 20px;
-   
   }
 
   .inner-container {
@@ -874,5 +872,58 @@ footer p {
   #menu {
     display: block;
     align-items: center;
+  }
+}
+
+@media (min-width: 2400px) {
+  header {
+    width: 63vw;
+  }
+  .container-slideshow img {
+    width: 63vw;
+  }
+
+  .flex-cell1 {
+    width: 63vw;
+  }
+  .flex-cell2 {
+    width: 63vw;
+  }
+
+  .flex-testimonianze {
+    width: 63vw;
+  }
+
+  .flex-cell4 {
+    width: 63vw;
+
+  }
+
+  .flex-certificazioni-container {
+    width: 63vw;
+  }
+
+  .flex-cell5 {
+    width: 63vw;
+  }
+
+  .flex-cell7 {
+    width: 63vw;
+  }
+
+  .flex-help {
+    width: 63vw;
+  }
+
+  .cell-container {
+    width: 63vw;
+  }
+
+  .flex-container-finale {
+    width: 63vw;
+  }
+
+  footer {
+    width: 63vw;
   }
 }
